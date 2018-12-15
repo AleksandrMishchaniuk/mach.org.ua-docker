@@ -1,7 +1,7 @@
 version: "3"
 services:
   nginx:
-    image: machorgua/site
+    image: machorgua/site:{{tag}}
     volumes:
       - "./nginx/logs:/var/log/nginx"
     expose:
